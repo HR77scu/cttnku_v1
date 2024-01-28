@@ -9,8 +9,7 @@ class NoteController extends Controller
 {
     public function index(){
         $data['note'] = m_note::orderby('created_at','DESC')->get();
-        $d = date('Y-m-d');
-        // $data['sum_a_created_note'] = m_note::sum_a_created_note($d);
+        $data['sum_a_created_note'] = m_note::count_by_today_created_at();
         return view('page.note.index', $data);
     }
     public function create(){

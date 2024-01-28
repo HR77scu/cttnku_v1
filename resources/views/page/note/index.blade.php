@@ -20,7 +20,7 @@
                         </ul>
 
                         <h1 class="page-header">
-                            @yield('title') <small>Jumlah data yang terbuat hari ini : Null</small>
+                            @yield('title') <small>Jumlah data yang terbuat hari ini : {{ $sum_a_created_note }}</small>
                         </h1>
 
                         <hr class="mb-4">
