@@ -17,6 +17,7 @@ class CreatePemasukansTable extends Migration
             $table->id();
             $table->string('pemasukan_nm')->nullable();
             $table->dateTime('pemasukan_tgl')->nullable();
+            $table->string('referense_id')->nullable();
             $table->string('nominal')->default('0');
             $table->timestamps();
         });

@@ -17,6 +17,7 @@ class CreatePengeluaransTable extends Migration
             $table->id();
             $table->string('pengeluaran_nm')->nullable();
             $table->dateTime('pengeluaran_tgl')->nullable();
+            $table->strign('reference_id')->nullable();
             $table->string('nominal')->default('0');
             $table->timestamps();
         });

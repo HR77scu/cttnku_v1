@@ -12,5 +12,7 @@ class Pemasukan extends Model
     // protected table 
     protected $table = 'pemasukan';
     protected $primaryKey = 'id';
+
+    
     
 }
