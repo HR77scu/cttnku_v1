@@ -42,8 +42,6 @@ class PengeluaranController extends Controller
 
     /**
      * delete all data yang terintegrasi();
-     * digunakan jika ada data yang sudah
-     * terhubung ke data tersebut agar semua data yang terhubung bisa terhapus :) 
      */
     public function delete_required_integrated($id){
         // 

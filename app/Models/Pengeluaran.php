@@ -9,7 +9,6 @@ class Pengeluaran extends Model
 {
     use HasFactory;
 
-
     // protected table
     protected $table = 'pengeluaran';
     protected $primaryKey = 'id';
