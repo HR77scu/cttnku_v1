@@ -28,6 +28,13 @@ $dashboard = c_dashboard::class;
 use App\Http\Controllers\NoteController as c_note;
 $note = c_note::class;
 
+/**
+ * budget_management
+ * -pengeluaran
+ */
+use App\Http\Controllers\PengeluaranController as c_pengeluaran;
+$pengeluaran = c_pengeluaran::class;
+
 
 
 
@@ -43,3 +50,7 @@ Route::get('/page/note/delete/{id}',[$note,'delete'])->name('note.delete');
 Route::get('/page/note/show/{id}',[$note,'show'])->name('note.show');
 Route::get('/page/note/edit/{id}',[$note,'edit'])->name('note.edit');
 route::post('/page/note/update/{id}',[$note,'update'])->name('note.update');
+
+// pengeluaran;
+Route::get('/page/pengeluaran',[$pengeluaran,'index'])->name('pengeluaran.index');
+Route::get('/page/pengeluaran/create',[$pengeluaran,'create'])->name('pengeluaran.create');
