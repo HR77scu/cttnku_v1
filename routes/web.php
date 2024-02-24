@@ -54,3 +54,5 @@ route::post('/page/note/update/{id}',[$note,'update'])->name('note.update');
 // pengeluaran;
 Route::get('/page/pengeluaran',[$pengeluaran,'index'])->name('pengeluaran.index');
 Route::get('/page/pengeluaran/create',[$pengeluaran,'create'])->name('pengeluaran.create');
+Route::post('/page/pengeluaran/store',[$pengeluaran,'store'])->name('pengeluaran.store');
+// Route::get('/page/pengeluaran/{id}')
