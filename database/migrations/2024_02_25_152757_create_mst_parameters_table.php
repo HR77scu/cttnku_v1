@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreatePengeluaransTable extends Migration
+class CreateMstParametersTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,13 @@ class CreatePengeluaransTable extends Migration
      */
     public function up()
     {
-        Schema::create('pengeluarans', function (Blueprint $table) {
+        Schema::create('mst_parameters', function (Blueprint $table) {
             $table->id();
-            $table->string('pengeluaran_nm')->nullable();
-            $table->dateTime('pengeluaran_tgl')->nullable();
-            $table->string('reference_id')->nullable();
-            $table->string('nominal')->default('0');
+            $table->string('group_parameter');
+            $table->string('parameter_nm');
+            $table->string('parameter_field')->nullable();
+            $table->string('paramter_cd')->nullable();
+            $table->string('parameter_val')->nullable();
             $table->timestamps();
         });
     }
@@ -30,6 +31,6 @@ class CreatePengeluaransTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('pengeluarans');
+        Schema::dropIfExists('mst_parameters');
     }
 }
