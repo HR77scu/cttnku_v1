@@ -22,12 +22,12 @@
             <div class="menu-divider"></div>
             <div class="menu-header">Users</div>
             <div class="menu-item">
-                <a href="javascript:void(0)" class="menu-link">
+                <a href="" class="menu-link">
                     <span class="menu-icon"><i class="bi bi-people"></i></span>
-                    <span class="menu-text">Profile</span>
+                    <span class="menu-text">Account</span>
                 </a>
             </div>
-            <div class="menu-item">
+            <!-- <div class="menu-item">
                 <a href="javascript:void(0)" class="menu-link">
                     <span class="menu-icon"><i class="bi bi-calendar4"></i></span>
                     <span class="menu-text">Calendar</span>
@@ -38,14 +38,14 @@
                     <span class="menu-icon"><i class="bi bi-gear"></i></span>
                     <span class="menu-text">Settings</span>
                 </a>
-            </div>
+            </div> -->
         </div>
 
         <div class="p-3 px-4 mt-auto">
             <!-- <a href="javascript:void(0)" target="_blank" class="btn d-block btn-outline-theme"> -->
-            <a href="javascript:void(0)" class="btn d-block btn-outline-theme">
-                <i class="fa fa-code-branch me-2 ms-n2 opacity-5"></i> Documentation
-            </a>
+            <!-- <a href="javascript:void(0)" class="btn d-block btn-outline-theme"> -->
+                <!-- <i class="fa fa-code-branch me-2 ms-n2 opacity-5"></i> Documentation -->
+            <!-- </a> -->
         </div>
     </div>
 
