@@ -39,6 +39,14 @@
                     <span class="menu-text">Settings</span>
                 </a>
             </div> -->
+            <div class="menu-divider"></div>
+            <div class="menu-header">Data Master</div>
+            <div class="menu-item">
+                <a href="" class="menu-link">
+                    <span class="menu-icon"><i class="bi bi-people"></i></span>
+                    <span class="menu-text">Parameter</span>
+                </a>
+            </div>
         </div>
 
         <div class="p-3 px-4 mt-auto">
