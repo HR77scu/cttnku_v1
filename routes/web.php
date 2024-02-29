@@ -32,8 +32,8 @@ $note = c_note::class;
  * budget_management
  * -pengeluaran
  */
-use App\Http\Controllers\PengeluaranController as c_pengeluaran;
-$pengeluaran = c_pengeluaran::class;
+use App\Http\Controllers\PengeluaranController as c_pengeluaran; $pengeluaran = c_pengeluaran::class;
+use App\Http\Controllers\MstParameterController as c_mst_parameter; $mst_parameter = c_mst_parameter::class;
 
 
 
@@ -57,4 +57,7 @@ route::post('/page/note/update/{id}',[$note,'update'])->name('note.update');
 // Route::post('/page/pengeluaran/store',[$pengeluaran,'store'])->name('pengeluaran.store');
 // Route::get('/page/pengeluaran/{id}')
 
-// Account 
+// Parameter
+Route::get('/page/parameter',[$mst_parameter,'index'])->name('parameter.index');
+Route::post('/page/parameter/save',[$mst_parameter,'store'])->name('parameter.save');
+Route::get('/page/parameter/delete',[$mst_parameter,'delete'])->name('parameter.delete');
