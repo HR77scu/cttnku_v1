@@ -27,18 +27,7 @@
                     <span class="menu-text">Account</span>
                 </a>
             </div>
-            <!-- <div class="menu-item">
-                <a href="javascript:void(0)" class="menu-link">
-                    <span class="menu-icon"><i class="bi bi-calendar4"></i></span>
-                    <span class="menu-text">Calendar</span>
-                </a>
-            </div>
-            <div class="menu-item">
-                <a href="javascript:void(0)" class="menu-link">
-                    <span class="menu-icon"><i class="bi bi-gear"></i></span>
-                    <span class="menu-text">Settings</span>
-                </a>
-            </div> -->
+
             <div class="menu-divider"></div>
             <div class="menu-header">Data Master</div>
             <div class="menu-item">
