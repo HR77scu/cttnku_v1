@@ -22,16 +22,11 @@ Route::get('/', function () {
  * Deklarasi
  */
 // Dashboard
-use App\Http\Controllers\DashboardController as c_dashboard;
-$dashboard = c_dashboard::class;
+use App\Http\Controllers\DashboardController as c_dashboard; $dashboard = c_dashboard::class;
 // Note
-use App\Http\Controllers\NoteController as c_note;
-$note = c_note::class;
+use App\Http\Controllers\NoteController as c_note; $note = c_note::class;
 
-/**
- * budget_management
- * -pengeluaran
- */
+
 use App\Http\Controllers\PengeluaranController as c_pengeluaran; $pengeluaran = c_pengeluaran::class;
 use App\Http\Controllers\MstParameterController as c_mst_parameter; $mst_parameter = c_mst_parameter::class;
 
